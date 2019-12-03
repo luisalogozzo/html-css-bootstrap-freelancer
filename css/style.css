@@ -1,0 +1,47 @@
+.margin_bm_20 {
+  margin-bottom: 20px;
+}
+
+
+header [class*="col-"] {
+  background-color: pink;
+  border: 1px solid red;
+  height: 80px;
+}
+
+.portfolio [class*="col-"] {
+  /* background-color: pink; */
+  /* border: 1px solid red; */
+  /* height: 250px; */
+}
+
+.nav{
+  height: 80px;
+  width: auto;
+  background-color: blue;
+
+}
+
+.banner_section .container-fluid {
+  background-color: red;
+  height: 300px;
+  position: relative;
+}
+
+.banner_logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+}
+
+.text_align {
+  text-align: center;
+}
+
+.portfolio img {
+ width: 100%;
+ background-size: cover;
+ border-radius: 5px;
+}
