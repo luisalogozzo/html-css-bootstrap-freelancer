@@ -1,5 +1,25 @@
+
+/* utility */
 .margin_bm_20 {
   margin-bottom: 20px;
+}
+
+.margin_top_100 {
+  margin-top: 100px;
+}
+
+
+.text_align {
+  text-align: center;
+}
+
+.text_align_right {
+  text-align: right;
+}
+
+/* general */
+body {
+  font-size: 10px;
 }
 
 
@@ -9,12 +29,8 @@ header [class*="col-"] {
   height: 80px;
 }
 
-.portfolio [class*="col-"] {
-  /* background-color: pink; */
-  /* border: 1px solid red; */
-  /* height: 250px; */
-}
 
+/* header */
 .nav{
   height: 80px;
   width: auto;
@@ -36,12 +52,29 @@ header [class*="col-"] {
   background-color: yellow;
 }
 
-.text_align {
-  text-align: center;
+.section_title {
+  margin: 80px 0 50px;
+  font-size: 5em;
 }
+
 
 .portfolio img {
  width: 100%;
  background-size: cover;
  border-radius: 5px;
+}
+
+.about {
+  height: 500px;
+  background-color: #1ABC9C;
+}
+
+.about h2 {
+  color: white;
+}
+
+.about [class*="col-"] {
+  background-color: red;
+  height: 100px;
+  border: 1px solid white;
 }
