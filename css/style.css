@@ -71,7 +71,6 @@ h1 {
   font-size: 3em;
 }
 
-
 #star_icon::after,
 #star_icon::before {
   content: "";
@@ -194,7 +193,6 @@ font-size: 2.5em;
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: none; */
 }
 
 .layover span {
@@ -209,9 +207,8 @@ font-size: 2.5em;
 }
 
 #portfolio .layover:hover {
-z-index: 3;
-background-color: rgba(26,188,156,.9);
-cursor: pointer;
+  background-color: rgba(26,188,156,.9);
+  cursor: pointer;
 }
 
 #portfolio .layover:hover span {
@@ -256,8 +253,6 @@ cursor: pointer;
   border-color: white;
   background-color: white;
 }
-
-
 
 /* sezione contatti */
 .width_100 {
@@ -323,7 +318,6 @@ input:active {
 }
 
 .btn-outline-light {
-  /* font-size: 2.2em; */
   color: #f8f9fa;
   border-color: #f8f9fa;
   }
