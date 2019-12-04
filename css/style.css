@@ -4,6 +4,10 @@
   margin-bottom: 20px;
 }
 
+.margin_bm_30 {
+  margin-bottom: 30px;
+}
+
 .margin_top_100 {
   margin-top: 100px;
 }
@@ -233,7 +237,6 @@ cursor: pointer;
    margin: 0 auto;
  }
 }
-
 
 #about p {
  font-size: 2em;
