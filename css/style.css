@@ -12,6 +12,10 @@
   margin-top: 100px;
 }
 
+.padding_top_80 {
+  padding-top: 80px;
+}
+
 .padding_bottom_80 {
   padding-bottom: 80px;
 }
@@ -59,14 +63,8 @@ h1 {
   margin: auto;
 }
 
-/* footer [class*="col-"] {
-  background-color: pink;
-  border: 1px solid red;
-  height: 400px;
-} */
-
 .section_title {
-  margin: 80px 0 15px;
+  margin: 0 0 15px;
   font-size: 5em;
   font-weight: bolder;
   text-transform: uppercase;
@@ -102,32 +100,43 @@ h1 {
   margin-right: 15px;
 }
 
-
 /* header */
 /* nav */
-.header_nav{
+.header_top{
   height: 100px;
-  width: auto;
+  width: 100%;
   background-color: #2B3E50;
   line-height: 100px;
   text-transform: uppercase;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
-.header_nav a {
+.header_top a {
   font-size: 1.8em;
   margin-right: 30px;
   color: white;
   font-weight: bold;
 }
 
+.header_top a:hover {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
 #site_title {
   font-size: 3em;
 }
 
+#site_title:hover {
+  color: white;
+}
 /* fine nav */
 /* sezione banner */
 .banner_section .container-fluid {
+  margin-top: 100px;
   background-color: #1ABC9C;
   height: 757px;
   position: relative;
@@ -164,6 +173,7 @@ font-size: 2.5em;
  width: 100%;
  background-size: cover;
  border-radius: 5px;
+ margin-bottom: 30px;
 }
 
 /* sezione about */
