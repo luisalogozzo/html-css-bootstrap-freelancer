@@ -83,17 +83,16 @@ h1 {
 }
 
 #star_icon::after {
-  margin-right: -100%;
   margin-left: 15px;
 }
 
 #star_icon::before {
-  margin-left: -100%;
   margin-right: 15px;
 }
 
 /* header */
 /* nav */
+
 .header_top{
   height: 100px;
   width: 100%;
