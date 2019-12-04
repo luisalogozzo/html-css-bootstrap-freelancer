@@ -115,15 +115,28 @@ h1 {
 }
 
 .header_top a {
-  font-size: 1.8em;
-  margin-right: 30px;
   color: white;
   font-weight: bold;
 }
 
-.header_top a:hover {
+.header_top .visible-lg a {
+  font-size: 1.8em;
+  margin-right: 30px;
+}
+
+.header_top a:hover,
+.header_top a:focus,
+.header_top a:active {
   color: #1abc9c;
   text-decoration: none;
+}
+
+.btn_green {
+  background-color: #1abc9c;
+}
+
+.btn_green .glyphicon{
+  vertical-align: text-top;
 }
 
 #site_title {
@@ -160,13 +173,13 @@ font-size: 2.5em;
   height: auto;
 }
 .section_title_wrap {
-  width: 30%;
+
   margin: 0 auto 30px;
 }
 
 /* sezione portfolio */
-#portfolio {
-  color: #2B3E50;
+.background_color {
+  background-color: #1ABC9C;
 }
 
 #portfolio img {
@@ -177,13 +190,23 @@ font-size: 2.5em;
 }
 
 /* sezione about */
-#about {
-  /* height: 500px; */
-  background-color: #1ABC9C;
-}
 
 #about  {
   color: white;
+}
+
+@media screen and (min-width: 768px) {
+ .wrapper_md_60 {
+   width: 60%;
+   margin: 0 auto;
+ }
+}
+
+@media screen and (max-width: 768px) {
+ .wrapper_xs_100 {
+   width: 100%;
+   margin: 0 auto;
+ }
 }
 
 
@@ -204,6 +227,8 @@ font-size: 2.5em;
 .download_btn:hover {
   border-color: white;
 }
+
+
 
 /* sezione contatti */
 .width_100 {
@@ -238,7 +263,7 @@ input:active {
 #footer_top {
   color: white;
   background-color: #2B3E50;
-  height: 300px;
+  /* height: 300px; */
 }
 
 #footer_top h5 {
