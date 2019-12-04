@@ -170,8 +170,13 @@ font-size: 2.5em;
   border-color: white;
   background-color: white;
 }
-/* #about [class*="col-"] {
-  background-color: red;
-  height: 100px;
-  border: 1px solid white;
-} */
+
+/* sezione contatti */
+.width_100 {
+  width: 100%;
+}
+
+form input {
+  border-width: 0px;
+  border: none;
+  }
