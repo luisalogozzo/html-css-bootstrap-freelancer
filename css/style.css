@@ -23,19 +23,23 @@ body {
 }
 
 
-header [class*="col-"] {
+/* header [class*="col-"] {
   background-color: pink;
   border: 1px solid red;
-  height: 80px;
-}
+height: 80px; */
+
 
 
 /* header */
-.nav{
-  height: 80px;
+.header_nav{
+  height: 100px;
   width: auto;
-  background-color: blue;
+  background-color: #2B3E50;
+  line-height: 100px;
+}
 
+.site_title {
+  font-size: 3em;
 }
 
 .banner_section .container-fluid {
@@ -51,12 +55,43 @@ header [class*="col-"] {
   transform: translate(-50%, -50%);
   background-color: yellow;
 }
+.section_title_wrap {
+  width: 30%;
+  margin: 0 auto 50px;
+}
 
 .section_title {
-  margin: 80px 0 50px;
+  margin: 80px 0 15px;
   font-size: 5em;
 }
 
+#star_icon {
+  font-size: 3em;
+}
+
+
+#star_icon::after,
+#star_icon::before {
+  content: "";
+  display: inline-block;
+  height: 10.5px;
+  vertical-align: middle;
+  width: 30%;
+  /* margin-right: -100%;
+  margin-left: 60px; */
+  border-top: 3px solid black;
+  overflow: hidden;
+}
+
+#star_icon::after {
+  margin-right: -100%;
+  margin-left: 15px;
+}
+
+#star_icon::before {
+  margin-left: -100%;
+  margin-right: 15px;
+}
 
 .portfolio img {
  width: 100%;
