@@ -111,7 +111,7 @@ h1 {
   font-weight: bold;
 }
 
-.header_top .visible-lg a {
+.header_top .visible-md a {
   font-size: 1.6em;
   margin-right: 35px;
 }
@@ -148,6 +148,7 @@ h1 {
 }
 
 #banner_logo {
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
