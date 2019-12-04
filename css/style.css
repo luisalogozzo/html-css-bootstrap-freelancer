@@ -4,8 +4,16 @@
   margin-bottom: 20px;
 }
 
+.margin_bm_30 {
+  margin-bottom: 30px;
+}
+
 .margin_top_100 {
   margin-top: 100px;
+}
+
+.padding_bottom_80 {
+  padding-bottom: 80px;
 }
 
 
@@ -36,6 +44,7 @@ height: 80px; */
   margin: 80px 0 15px;
   font-size: 5em;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 
 #star_icon {
@@ -134,20 +143,35 @@ font-size: 2.5em;
 
 /* sezione about */
 #about {
-  height: 500px;
+  /* height: 500px; */
   background-color: #1ABC9C;
 }
 
-#about .section_title_wrap {
+#about  {
   color: white;
 }
 
-#about h3 {
-text-transform: uppercase;
+
+#about p {
+ font-size: 2em;
+ line-height: 1.5em;
 }
 
-#about [class*="col-"] {
+.download_btn {
+  background-color: inherit;
+  color: inherit;
+  padding: 15px 30px 15px;
+  border: 2px solid white;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.download_btn:hover {
+  border-color: white;
+  background-color: white;
+}
+/* #about [class*="col-"] {
   background-color: red;
   height: 100px;
   border: 1px solid white;
-}
+} */
